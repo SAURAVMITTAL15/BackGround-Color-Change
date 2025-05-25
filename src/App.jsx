@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+  return<>
+  <div className='w-full h-screen duration-200'>
+  <div className='fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2'>
+    <div className='flex flex-wrap gap-3 justify-center bg-white shadow-lg px-3  py-3 rounded-3xl'>
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>RED</button>
+      
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>Pink</button>
+      
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>Green</button>
+      
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>Blue</button>
+      
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>Olive</button>
+      
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>Gray</button>
+      
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>Yellow</button>
+      
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>Purple</button>
+    
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>Lavender</button>
+      
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>White</button>
+      
+      <button className='outline-none px-4 py-1 rounded-full text-white shadow-lg'>Black</button>
+    </div>
+
+  </div>
+  </div>
+</> 
 }
-
 export default App
